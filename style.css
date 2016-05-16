@@ -11,27 +11,26 @@ html {
 /*Added basic Body elements including: font, line height, background image */
 body {
   font-family: 'Lucinda Handwriting', cursive, sans-serif;
-  font-size: 24px;
-  color: #004F2E;
+  font-size: 20px;
+  color: white;
   line-height: 1.25;
-  background-image: url("Spring_Grass.jpg");
-  background-size: 1500px 800px;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  margin: 0;
-  padding: 0;
-  text-align: center;
+	background-color: #6CABD6;
+  margin: 0px;
+  padding: 0px;
+	padding-bottom: 10px;
 }
 /*Added paragraph styling including: font, text align, color*/
 p {
-  font-size: 14px;
+  font-size: 16px;
   font-family: sans-serif;
   text-align: left;
-  margin: 0;
+	line-height:1.5;
+  margin: 0px;
+	padding: 0px;
 }
 /*Added h3 styling including: font, letter spacing, color*/
 h3 {
-  font-size: 22px;
+  font-size: 24px;
   font-style: italic;
   letter-spacing: 1.25px;
   margin-bottom: 0;
@@ -42,18 +41,18 @@ a:link {
   font-size: 12px;
   font-weight: bold;
   text-decoration: underline;
-  color: #669933;
+  color: #9A1C39;
 }
 /*Added a:visited styling including: font, underline text, color*/
 a:visited {
   font-weight: bold;
   text-decoration: underline;
-  color: #CCCC33;
+  color: #BFD4D9;
 }
 /*Added a:hover/focus/active styling including: underline text, color*/
 a:hover, a:focus, a:active {
   text-decoration: underline;
-  color: #FFCC33; 
+  color: #3C1E63; 
 }
 /*Added abbr styling including: no bottom border*/
 abbr {
@@ -64,9 +63,116 @@ abbr {
 
 /*Begin specific div*/
 
+/*Added page-wrapper position and margin */
 .page-wrapper {
   position: relative;
-  margin:0;
-  padding: 25px;
-  
+  margin: 0px;
 }
+/*Added intro padding*/
+.intro {
+	padding: 0px;
+}
+/*Added header to include: bckgrnd image, bckgrnd color, height and border*/
+header {
+	background: url("cottage.jpg")  no-repeat top right;
+	background-color: #76932F;
+	height: 717px;
+	margin: 0px;
+	padding: 0px;
+	border-bottom: 1px solid white;
+	position: relative;
+}
+/*Added h1/h2 styling including: text align, font sz, color, widht, padding*/
+header h1 {
+	text-align: left;
+	font-size: 36px;
+	color: #5C4032;
+	width: 312px;
+	height: 50px;
+	margin: 0px;
+	padding-top: 80px;
+	padding-left: 5px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+}
+
+header h2 {
+	text-align: left;
+	text-indent: 20px;
+	font-size: 22px;
+	color: #5C4032;
+	width: 312px;
+	margin: 0px;
+	padding-left: 5px;
+}
+
+/*Add styling to summary including: clear, overflow text, w&h, margin, padding and positon*/
+.summary {
+	clear: both;
+	overflow: auto;
+	width: 225px;
+	height: 175px;
+	margin-left: 20px;
+	padding-top: 5px;
+	padding-left: 8px;
+	padding-right: 8px;
+	position: absolute;
+	top: 213px;
+}
+.summary p {
+	color: #FACB1E;
+	font-size: 14px;
+}
+.summary a {
+	text-align: left;
+}
+
+/*Added styling to preamble including: width, margin, positon, overflow, line-h  */
+.preamble {
+	margin-left: 0px;
+	margin-top: 0;
+	margin-right: 60%;
+	margin-bottom: 0;
+	padding: 5px;
+	border: 1px solid white;
+	background-color: #76932F;
+}
+.preamble h3 {
+	color: #FACB1E;
+	text-align: center;
+}
+.preamble p {
+	color: white;
+	text-align: left;
+	margin: 2px;
+}
+
+/*Add styling to supporting text*/
+
+main supporting, {
+	margin-left: 0px;
+	margin-top: 0;
+	margin-right: 60%;
+	margin-bottom: 0;
+	padding: 5px;
+	border: 1px solid white;
+	background-color: #76932F;
+	color: white;
+}
+.supporting h3 {
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
